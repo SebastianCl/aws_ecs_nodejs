@@ -17,7 +17,6 @@ pipeline {
         REPOSITORY_NAME_DOCKER = "my-first-ecr-repo"
         AWS_ACCESS_KEY_ID     = "${ACCESS_KEY_AWS_NEWINNTECH}"
         AWS_SECRET_ACCESS_KEY = "${SECRET_KEY_AWS_NEWINNTECH}" // Referencia: https://coralogix.com/log-analytics-blog/ci-cd-tutorial-how-to-deploy-an-aws-jenkins-pipeline/
-
     }
     stages{
         stage('Obteniendo codigo fuentes'){
